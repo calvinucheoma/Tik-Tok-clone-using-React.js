@@ -1,0 +1,13 @@
+.video{
+    position: relative;
+    width: 100%; /*100vw*/
+    height: 100%; /*100vh*/
+    scroll-snap-align: start;
+}
+
+.videoPlayer{
+    object-fit: fill;
+    width:  100%; /*100vw*/
+    height: 100%; /*100vh*/
+    cursor: pointer;
+}

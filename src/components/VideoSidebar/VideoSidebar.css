@@ -1,0 +1,19 @@
+.videoSidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 48%;
+    right: 10px;
+    color: white;
+}
+
+.videoSidebarIcons{
+    padding: 15px;
+    text-align: center;
+}
+
+@media(width < 650) {
+    .videoSidebar{
+        right: 5px;
+    }
+}
